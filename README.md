@@ -87,6 +87,83 @@ jupyter notebook
 
 Запуск: py src/bayes_sklearn.py
 
+Матрица ошибок: 
+
+<img width="786" height="584" alt="image" src="https://github.com/user-attachments/assets/64f7bbac-e9c9-4be6-8d6e-bde37f2e08c1" />
+
+ROC - кривая: 
+
+<img width="931" height="694" alt="image" src="https://github.com/user-attachments/assets/8eca1341-b9e5-4db8-aea6-c85e074865a0" />
+
+ROC - кривые GridNaiveBayes и NaiveBayes для сравнения: 
+
+<img width="1103" height="891" alt="image" src="https://github.com/user-attachments/assets/88bda19f-cfa8-47d1-a999-460498da1c26" />
+
+Вывод программы: 
+
+Очищаем текст...
+Обучение Наивного Байесовского классификатора ...
+Accuracy: 0.8548
+
+Classification Report для Naive Bayes:
+              precision    recall  f1-score   support
+
+           0       0.86      0.84      0.85      4945
+           1       0.85      0.87      0.86      5055
+
+    accuracy                           0.85     10000
+   macro avg       0.86      0.85      0.85     10000
+weighted avg       0.86      0.85      0.85     10000
+
+
+============================================================
+ПЕРВЫЕ 5 ТЕКСТОВ И ИХ ПРЕДСКАЗАНИЯ:
+============================================================
+
+Текст 1:
+   i was taken to this film by a friend and was sceptical about a swedish film with subtitles however i...
+Предсказание: ПОЗИТИВНЫЙ
+Вероятности: [Негативный: 0.205, Позитивный: 0.795]
+Реальный класс: ПОЗИТИВНЫЙ
+Совпадение: ВЕРНО
+
+Текст 2:
+   this trash version of romeo and juliet passes in manhattan in the present days romeo will keenan is ...
+Предсказание: ПОЗИТИВНЫЙ
+Вероятности: [Негативный: 0.431, Позитивный: 0.569]
+Реальный класс: ПОЗИТИВНЫЙ
+Совпадение: ВЕРНО
+
+Текст 3:
+   there is a lot to like in this film despite its humble trappings of a preachy pc tale about rape and...
+Предсказание: ПОЗИТИВНЫЙ
+Вероятности: [Негативный: 0.494, Позитивный: 0.506]
+Реальный класс: ПОЗИТИВНЫЙ
+Совпадение: ВЕРНО
+
+Текст 4:
+   people have often been uncomfortable with the merchant of venice due to its anti semitic subject mat...
+Предсказание: ПОЗИТИВНЫЙ
+Вероятности: [Негативный: 0.349, Позитивный: 0.651]
+Реальный класс: ПОЗИТИВНЫЙ
+Совпадение: ВЕРНО
+
+Текст 5:
+   i don t get this the movie obviously has a pretty good budget it has very good cinematography it has...
+Предсказание: НЕГАТИВНЫЙ
+Поиск оптимальных параметров для Naive Bayes...
+Fitting 3 folds for each of 10 candidates, totalling 30 fits
+              precision    recall  f1-score   support
+
+           0       0.86      0.84      0.85      4945
+           1       0.85      0.87      0.86      5055
+
+    accuracy                           0.85     10000
+   macro avg       0.85      0.85      0.85     10000
+weighted avg       0.85      0.85      0.85     10000
+
+
+
 
 
 
