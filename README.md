@@ -70,3 +70,5 @@ pip install -r requirements.txt
 
 # 4. Запустить Jupyter
 jupyter notebook
+```
+# Ниже приведены скриншоты выполнения каждых файлов
