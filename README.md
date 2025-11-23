@@ -71,4 +71,13 @@ pip install -r requirements.txt
 # 4. Запустить Jupyter
 jupyter notebook
 ```
-## Ниже приведены скриншоты выполнения каждых файлов
+## Ниже приведены скриншоты выполнения каждых файлов и схемы работы с ними 
+analyze.ipynb
+Загрузка датасета: 
+<img width="670" height="319" alt="image" src="https://github.com/user-attachments/assets/58499cda-3b2a-4322-8acb-7c7a7e9584ef" />
+Пример вывода данных: 
+![Uploading image.png…]()
+
+
+
+
