@@ -73,7 +73,7 @@ jupyter notebook
 ```
 ## Ниже приведены скриншоты выполнения каждых файлов и схемы работы с ними 
 
-analyze.ipynb
+### analyze.ipynb
 
 Загрузка датасета: 
 
@@ -82,6 +82,11 @@ analyze.ipynb
 Пример вывода данных: 
 
 <img width="655" height="139" alt="image" src="https://github.com/user-attachments/assets/2eef6d6d-3894-4933-afba-817ab02b7f11" />
+
+### src/bayes_sklearn.py
+
+Запуск: py src/bayes_sklearn.py
+
 
 
 
